@@ -1,0 +1,155 @@
+.midText, hr {
+    text-align: center
+}
+
+.chart, hr {
+    position: relative
+}
+
+.chart, .percent {
+    display: inline-block
+}
+
+body {
+    height: 100%
+}
+
+.midText {
+    padding: 3rem 1.5rem
+}
+
+section {
+    padding-top: 5rem;
+    min-height: 100vh
+}
+
+.start-section {
+    background-image: url(../img/background-top.jpeg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #050608
+}
+
+.aboutme-section img {
+    width: 20px;
+    height: 20px
+}
+
+.skills-section {
+    background-color: #B6ADB0
+}
+
+hr {
+    height: 4px;
+    width: 70px;
+    background: #32cd32;
+    margin: 0 auto 30px;
+    border: 0
+}
+
+.chart, .skills-section .skill {
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.skills-section .skill {
+    padding: 0
+}
+
+.skills-section .skill h4 {
+    font-weight: 600;
+    color: #000
+}
+
+.contact-section {
+    background-color: #B6ADB0
+}
+
+.chart {
+    width: 152px;
+    height: 132px
+}
+
+.chart canvas {
+    position: absolute;
+    top: 20px;
+    left: 15px
+}
+
+.percent {
+    font-size: 21px;
+    color: #121d1f;
+    line-height: 152px;
+    z-index: 2
+}
+
+.percent:after {
+    content: '%';
+    margin-left: .1em;
+    font-size: .8em
+}
+
+.portfolio-item {
+    margin: 15px 0;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out
+}
+
+.portfolio-item:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.hover-bg .hover-text {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    background: rgba(0, 0, 0, .66);
+    padding: 5% 0 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s
+}
+
+.hover-bg .hover-text>h4 {
+    opacity: 0;
+    color: #fff;
+    font-weight: 400;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+
+.hover-bg .hover-text>i {
+    opacity: 0;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+
+.hover-bg:hover .hover-text>h4 {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.hover-bg:hover .hover-text>i {
+    opacity: 1;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%)
+}
+
+.hover-bg:hover .hover-text {
+    opacity: 1
+}
+
+footer {
+    background-color: #050608;
+    color: #2f4f4f
+}
