@@ -1,7 +1,7 @@
 {
-  "name": "cfPortfolioPage",
+  "name": "cfportfoliopage",
   "description": "Portfolio page of Christoph Flick",
-  "version": "3.0.0",
+  "version": "2.0.0",
   "author": "Christoph Flick <hi@christophflick.de> (https://www.christophflick.de)",
   "license": "MIT",
   "dependencies": {
