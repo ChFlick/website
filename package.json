@@ -52,11 +52,11 @@
     "prettier": "^1.15.3"
   },
   "repository": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara",
+    "url": "https://github.com/ChFlick/chflick.github.io",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara/issues"
+    "url": "https://github.com/ChFlick/chflick.github.io/issues"
   },
   "homepage": "https://christophflick.de"
 }
