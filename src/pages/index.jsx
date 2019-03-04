@@ -9,10 +9,10 @@ import ProjectCard from '../components/ProjectCard'
 
 // Elements
 import Inner from '../elements/Inner'
-import { Title, BigTitle, Subtitle } from '../elements/Titles'
+import { SmallTitle, Title, BigTitle, Subtitle } from '../elements/Titles'
 
 // Views
-import Hero from '../views/Hero'
+import Me from '../views/Me'
 import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
@@ -60,11 +60,12 @@ const Footer = styled.footer`
 const Index = () => (
   <>
     <Layout />
-    <Parallax pages={5}>
-      <Hero offset={0}>
-        <BigTitle>Hello, I'm Christoph Flick.</BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
-      </Hero>
+    <Parallax pages={4}>
+      <Me offset={0}>
+        <SmallTitle>Hello, I am</SmallTitle>  
+        <BigTitle>Christoph Flick.</BigTitle>
+        <Subtitle>I'm a software engineer building awesome software.</Subtitle>
+      </Me>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
@@ -98,7 +99,7 @@ const Index = () => (
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
-      <About offset={3}>
+      <About offset={2}>
         <Title>About</Title>
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
@@ -115,7 +116,7 @@ const Index = () => (
           right?
         </AboutDesc>
       </About>
-      <Contact offset={4}>
+      <Contact offset={3}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
