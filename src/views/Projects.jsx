@@ -10,8 +10,8 @@ import { Parallax, ParallaxLayer } from 'react-spring/addons.cjs'
 const Projects = ({ children, offset }) => (
   <>
     <Divider
-      bg="linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%)"
-      speed={0.1}
+      bg="linear-gradient(to right, #002B02 0%, #1D531E 100%)"
+      speed={0.05}
       offset={offset}
       factor={1}
     />

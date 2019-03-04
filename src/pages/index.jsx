@@ -33,6 +33,10 @@ const ProjectsWrapper = styled.div`
   }
 `
 
+const MetaInfo = styled.p`
+  ${tw`italic`}
+`
+
 const AboutHero = styled.div`
   ${tw`flex flex-col lg:flex-row items-center mt-8`};
 `
@@ -70,32 +74,35 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="Project Pizzabutler"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            A web application to order food in the web and via mobile app.
+            <MetaInfo>Technical Project Lead</MetaInfo>
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
+            title="This portfolio page"
+            link="https://www.christophflick.de"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            A simple website created with Gatsby.
+            <MetaInfo>Hobby</MetaInfo>
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            title="blogstoph"
+            link="https://github.com/ChFlick/blogstoph"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            A simple blogging web application. Initially built to learn react and get into blogging.
+            <MetaInfo>Hobby</MetaInfo>
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+            title="Personal Node Red Setup"
+            link="https://github.com/ChFlick/node-red-setup"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            Smart Home Central / Controlling system to control all my devices and gather data.
+            <MetaInfo>Hobby</MetaInfo>
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -118,17 +125,18 @@ const Index = () => (
       </About>
       <Contact offset={3}>
         <Inner>
-          <Title>Get in touch</Title>
+          <Title>Get In Touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
+            If you have an offer or simply want to say hi, just send me an email.
+
+            Say <a href="mailto:hi@christophflick.de">Hi</a> or find me on other platforms:{' '}
             <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
             <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
+          &copy; 2019 by Christoph Flick.{' '}
+          <a href="https://github.com/ChFlick/chflick.github.io">Github Repository</a>. Made with ❤️{' '}
         </Footer>
       </Contact>
     </Parallax>
