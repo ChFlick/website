@@ -33,6 +33,18 @@ const ProjectsWrapper = styled.div`
   }
 `
 
+const ContentsA = styled.a`
+  display: contents;
+`
+
+const HiButton = styled.button`
+ ${tw`text-green font-semibold hover:text-green py-4 px-8 border border-green rounded content-center block my-4`};
+ background-color: transparent;
+ &:hover {
+  background: #004102;
+}
+`
+
 const MetaInfo = styled.p`
   ${tw`italic`}
 `
@@ -54,7 +66,7 @@ const AboutDesc = styled.p`
 `
 
 const ContactText = styled.p`
-  ${tw`text-grey-light font-sans text-xl md:text-2xl lg:text-3xl`};
+  ${tw`text-grey-light font-sans text-l md:text-xl lg:text-2xl`};
 `
 
 const Footer = styled.footer`
@@ -75,7 +87,7 @@ const Index = () => (
         <ProjectsWrapper>
           <ProjectCard
             title="Project Pizzabutler"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            bg="linear-gradient(to right, #082A2A 0%, #133B3B 100%)"
           >
             A web application to order food in the web and via mobile app.
             <MetaInfo>Technical Project Lead</MetaInfo>
@@ -83,7 +95,7 @@ const Index = () => (
           <ProjectCard
             title="This portfolio page"
             link="https://www.christophflick.de"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            bg="linear-gradient(to right, #133B3B 0%, #082A2A 100%)"
           >
             A simple website created with Gatsby.
             <MetaInfo>Hobby</MetaInfo>
@@ -91,7 +103,7 @@ const Index = () => (
           <ProjectCard
             title="blogstoph"
             link="https://github.com/ChFlick/blogstoph"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+            bg="linear-gradient(to right, #082A2A 0%, #133B3B 100%)"
           >
             A simple blogging web application. Initially built to learn react and get into blogging.
             <MetaInfo>Hobby</MetaInfo>
@@ -99,7 +111,7 @@ const Index = () => (
           <ProjectCard
             title="Personal Node Red Setup"
             link="https://github.com/ChFlick/node-red-setup"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            bg="linear-gradient(to right, #133B3B 0%, #082A2A 100%)"
           >
             Smart Home Central / Controlling system to control all my devices and gather data.
             <MetaInfo>Hobby</MetaInfo>
@@ -128,10 +140,10 @@ const Index = () => (
           <Title>Get In Touch</Title>
           <ContactText>
             If you have an offer or simply want to say hi, just send me an email.
-
-            Say <a href="mailto:hi@christophflick.de">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            <ContentsA href="mailto:hi@christophflick.de"><HiButton>Say Hi!</HiButton></ContentsA>
+            ...or find me on other platforms:{' '}
+            <a href="https://github.com/ChFlick/">GitHub</a> &{' '}
+            <a href="https://www.linkedin.com/in/christoph-flick/">LinkedIn</a>
           </ContactText>
         </Inner>
         <Footer>
