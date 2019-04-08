@@ -20,13 +20,16 @@ export const Title = styled.h1`
 `
 
 export const BigTitle = styled.h1`
-  ${tw`text-5xl lg:text-6xl font-titleSans text-white mb-6 mt-0`};
+  ${tw`text-5xl lg:text-6xl font-titleSans mb-6 mt-0`};
+  color: #EDF5E1;
 `
 
 export const Subtitle = styled.p`
-  ${tw`text-3xl lg:text-4xl font-sans text-green-grey mt-8 xxl:w-3/4`};
+  ${tw`text-3xl lg:text-4xl font-sans mt-8 xxl:w-3/4`};
+  color: #EDF5E1;
 `
 
 export const SmallTitle = styled.p`
-  ${tw`text-s lg:text-m font-sans text-green mb-0`}
+  ${tw`text-s lg:text-m font-sans mb-0`}
+  color: #379683;
 `

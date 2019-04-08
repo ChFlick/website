@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind.macro'
-import { Parallax } from 'react-spring/addons.cjs'
 
 // Components
 import Layout from '../components/Layout'
@@ -70,24 +69,23 @@ const ContactText = styled.p`
 `
 
 const Footer = styled.footer`
-  ${tw`text-center text-grey absolute pin-b p-6 font-sans text-md lg:text-lg`};
+  ${tw`text-center text-grey pin-b p-6 font-sans text-md lg:text-lg`};
 `
 
 const Index = () => (
   <>
     <Layout />
-    <Parallax pages={4}>
-      <Me offset={0}>
+      <Me>
         <SmallTitle>Hello, I am</SmallTitle>  
         <BigTitle>Christoph Flick.</BigTitle>
-        <Subtitle>I'm a software engineer building awesome software.</Subtitle>
+        <Subtitle>I'm a software engineer from Germany. </Subtitle>
       </Me>
-      <Projects offset={1}>
+      <Projects>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
             title="Project Pizzabutler"
-            bg="linear-gradient(to right, #082A2A 0%, #133B3B 100%)"
+            bg="linear-gradient(to right, #05386B 0%, #133B3B 100%)"
           >
             A web application to order food in the web and via mobile app.
             <MetaInfo>Technical Project Lead</MetaInfo>
@@ -95,7 +93,7 @@ const Index = () => (
           <ProjectCard
             title="This portfolio page"
             link="https://www.christophflick.de"
-            bg="linear-gradient(to right, #133B3B 0%, #082A2A 100%)"
+            bg="linear-gradient(to right, #133B3B 0%, #05386B 100%)"
           >
             A simple website created with Gatsby.
             <MetaInfo>Hobby</MetaInfo>
@@ -103,7 +101,7 @@ const Index = () => (
           <ProjectCard
             title="blogstoph"
             link="https://github.com/ChFlick/blogstoph"
-            bg="linear-gradient(to right, #082A2A 0%, #133B3B 100%)"
+            bg="linear-gradient(to right, #05386B 0%, #133B3B 100%)"
           >
             A simple blogging web application. Initially built to learn react and get into blogging.
             <MetaInfo>Hobby</MetaInfo>
@@ -111,14 +109,14 @@ const Index = () => (
           <ProjectCard
             title="Personal Node Red Setup"
             link="https://github.com/ChFlick/node-red-setup"
-            bg="linear-gradient(to right, #133B3B 0%, #082A2A 100%)"
+            bg="linear-gradient(to right, #133B3B 0%, #05386B 100%)"
           >
             Smart Home Central / Controlling system to control all my devices and gather data.
             <MetaInfo>Hobby</MetaInfo>
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
-      <About offset={2}>
+      <About>
         <Title>About</Title>
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
@@ -135,7 +133,7 @@ const Index = () => (
           right?
         </AboutDesc>
       </About>
-      <Contact offset={3}>
+      <Contact>
         <Inner>
           <Title>Get In Touch</Title>
           <ContactText>
@@ -146,12 +144,11 @@ const Index = () => (
             <a href="https://www.linkedin.com/in/christoph-flick/">LinkedIn</a>
           </ContactText>
         </Inner>
-        <Footer>
-          &copy; 2019 by Christoph Flick.{' '}
-          <a href="https://github.com/ChFlick/chflick.github.io">Github Repository</a>. Made with ❤️{' '}
-        </Footer>
       </Contact>
-    </Parallax>
+      <Footer>
+        &copy; 2019 by Christoph Flick.{' '}
+        <a href="https://github.com/ChFlick/chflick.github.io">Github Repository</a>. Made with ❤️{' '}
+      </Footer>
   </>
 )
 

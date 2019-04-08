@@ -18,5 +18,3 @@
   - The right image size for every screen size
   - Traced SVG Loading (Lazy-Loading)
   - WebP Support
-
-**Please note:** The parallax effect can be quite heavy for some older CPUs and the site uses some newer CSS features which will result in incompatibility with older browsers.
