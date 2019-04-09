@@ -37,10 +37,11 @@ const ContentsA = styled.a`
 `
 
 const HiButton = styled.button`
- ${tw`text-green font-semibold hover:text-green py-4 px-8 border border-green rounded content-center block my-4`};
- background-color: transparent;
+ ${tw`cursor-pointer font-semibold py-4 px-8 border-none rounded content-center block my-4`};
+ background-color: #05386B;
+ color: #EDF5E1;
  &:hover {
-  background: #004102;
+  background: #379683;
 }
 `
 
@@ -57,19 +58,19 @@ const Avatar = styled.img`
 `
 
 const AboutSub = styled.span`
-  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
+  ${tw`pt-12 lg:pt-0 lg:pl-12 text-xl lg:text-2xl xl:text-3xl`};
 `
 
 const AboutDesc = styled.p`
-  ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify`};
+  ${tw`text-white md:text-lg lg:text-xl font-sans pt-6 md:pt-12 text-justify`};
 `
 
 const ContactText = styled.p`
-  ${tw`text-grey-light font-sans text-l md:text-xl lg:text-2xl`};
+  ${tw`font-sans text-l md:text-xl lg:text-2xl`};
 `
 
 const Footer = styled.footer`
-  ${tw`text-center text-grey pin-b p-6 font-sans text-md lg:text-lg`};
+  ${tw`text-center pin-b p-6 font-sans text-md lg:text-lg`};
 `
 
 const Index = () => (
@@ -78,14 +79,13 @@ const Index = () => (
       <Me>
         <SmallTitle>Hello, I am</SmallTitle>  
         <BigTitle>Christoph Flick.</BigTitle>
-        <Subtitle>I'm a software engineer from Germany. </Subtitle>
+        <Subtitle>I'm a software engineer from Münster, bike capital of Germany.</Subtitle>
       </Me>
       <Projects>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
             title="Project Pizzabutler"
-            bg="linear-gradient(to right, #05386B 0%, #133B3B 100%)"
           >
             A web application to order food in the web and via mobile app.
             <MetaInfo>Technical Project Lead</MetaInfo>
@@ -93,7 +93,6 @@ const Index = () => (
           <ProjectCard
             title="This portfolio page"
             link="https://www.christophflick.de"
-            bg="linear-gradient(to right, #133B3B 0%, #05386B 100%)"
           >
             A simple website created with Gatsby.
             <MetaInfo>Hobby</MetaInfo>
@@ -101,7 +100,6 @@ const Index = () => (
           <ProjectCard
             title="blogstoph"
             link="https://github.com/ChFlick/blogstoph"
-            bg="linear-gradient(to right, #05386B 0%, #133B3B 100%)"
           >
             A simple blogging web application. Initially built to learn react and get into blogging.
             <MetaInfo>Hobby</MetaInfo>
@@ -109,7 +107,6 @@ const Index = () => (
           <ProjectCard
             title="Personal Node Red Setup"
             link="https://github.com/ChFlick/node-red-setup"
-            bg="linear-gradient(to right, #133B3B 0%, #05386B 100%)"
           >
             Smart Home Central / Controlling system to control all my devices and gather data.
             <MetaInfo>Hobby</MetaInfo>
@@ -117,20 +114,25 @@ const Index = () => (
         </ProjectsWrapper>
       </Projects>
       <About>
-        <Title>About</Title>
+        <Title>About Me</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          <Avatar src={avatar} alt="Christoph Flick" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            <p>
+              Software Development is my passion. I primarily work on web applications, but I also have knowledge in developing desktop applicatios.
+              I'm very passionate about good coding practices and clean code, so that project stay maintainable and can be worked on in the future.
+            </p>
+            <p>
+              I consider myself a person with hunger for knowledge and I can be fascinated by a new topic quite fast. 
+              When I'm not coding, I enjoy spending my time bouldering, gardening, playing board- or computer games, or spending time with friends and family.
+            </p>
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+            I graduated in 2013 as Bachelor of Science in Business Computing from the Baden-Wuerttemberg Cooperative State University Mannheim 
+            and then worked for two years as a software engineer at <a href="http://f-i.de/" target="_blank" rel="noopener noreferrer">Finanz Informatik</a>. 
+            Now I'm doing my masters degree at Fachhochschule Dortmund while working part-time for 
+            <a href="http://bitside.de/" target="_blank" rel="noopener noreferrer"> bitside</a>.
         </AboutDesc>
       </About>
       <Contact>
@@ -146,6 +148,7 @@ const Index = () => (
         </Inner>
       </Contact>
       <Footer>
+        <a href="./impressum">Impressum | </a>
         &copy; 2019 by Christoph Flick.{' '}
         <a href="https://github.com/ChFlick/chflick.github.io">Github Repository</a>. Made with ❤️{' '}
       </Footer>
