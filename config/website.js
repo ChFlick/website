@@ -15,6 +15,6 @@ module.exports = {
   author: 'Christoph Flick', // Author for schema.org JSONLD
 
   // Manifest and Progress color
-  themeColor: tailwind.colors.orange,
-  backgroundColor: tailwind.colors.blue,
+  themeColor: '#5CDB95',
+  backgroundColor: '#5CDB95',
 }
