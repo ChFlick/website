@@ -32,7 +32,4 @@ GlobalStyle.defaultProps = {
   ...colorSchemes[0]
 }
 
-console.log(GlobalStyle.defaultProps);
-
-
 export default GlobalStyle

@@ -23,7 +23,7 @@ const Title = styled.div`
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 `
 
-const ProjectCard = ({ title, link, children, bg }) => (
+const ProjectCard = ({ title, link, children }) => (
   <Wrapper href={link} target="_blank" rel="noopener noreferrer" bg={'#05386B'}>
     <Text>{children}</Text>
     <Title>{title}</Title>
@@ -34,7 +34,4 @@ export default ProjectCard
 
 ProjectCard.propTypes = {
   title: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
-  children: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,
-  bg: PropTypes.string.isRequired,
 }
