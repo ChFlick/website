@@ -29,5 +29,4 @@ export const Subtitle = styled.p`
 
 export const SmallTitle = styled.p`
   ${tw`text-m lg:text-lg font-sans mb-0`}
-  color: #379683;
 `
