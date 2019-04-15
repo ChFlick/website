@@ -1,3 +1,5 @@
+var Color = require('color');
+
 module.exports = {
   pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "/portfolio"
 
@@ -13,6 +15,6 @@ module.exports = {
   author: 'Christoph Flick', // Author for schema.org JSONLD
 
   // Manifest and Progress color
-  themeColor: '#5CDB95',
+  themeColor: Color('#5CDB95').grayscale().hex(),
   backgroundColor: '#5CDB95',
 }
