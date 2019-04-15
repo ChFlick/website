@@ -124,7 +124,7 @@ const Index = () => (
             </p>
             <p>
               I consider myself a person with hunger for knowledge and I can be fascinated by a new topic quite fast. 
-              When I'm not coding, I enjoy spending my time bouldering, gardening, playing board- or computer games, or spending time with friends and family.
+              When I'm not coding, I enjoy spending my time bouldering, gardening, playing board- or computer games, or spending time with friends.
             </p>
           </AboutSub>
         </AboutHero>
