@@ -120,13 +120,13 @@ class Index extends React.Component {
             <Subtitle>I'm a software engineer from Münster, bike capital of Germany.</Subtitle>
           </Me>
           <Projects>
-            <Title>Projects</Title>
+            <Title>Some Projects of mine</Title>
             <ProjectsWrapper>
               <ProjectCard
                 title="Project Pizzabutler"
               >
                 A web application to order food in the web and via mobile app.
-                <MetaInfo>Technical Project Lead</MetaInfo>
+                <MetaInfo>University Project - Technical Project Lead</MetaInfo>
               </ProjectCard>
               <ProjectCard
                 title="This portfolio page"
@@ -139,7 +139,7 @@ class Index extends React.Component {
                 title="blogstoph"
                 link="https://github.com/ChFlick/blogstoph"
               >
-                A simple blogging web application. Initially built to learn react and get into blogging.
+                A simple blogging web application. Initially built to learn react.
                 <MetaInfo>Hobby</MetaInfo>
               </ProjectCard>
               <ProjectCard
