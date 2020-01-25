@@ -1,5 +1,6 @@
 baseurl = "https://www.christophflick.de/"
 title = "Christoph Flick"
+description = "Christoph Flick"
 copyright = "Copyright &copy; 2020 - Christoph Flick | [Impressum & Datenschutz](/impressum)"
 canonifyurls = true
 theme = "hugo-kiera"
