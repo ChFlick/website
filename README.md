@@ -1,21 +1,7 @@
-# Christoph Flick's personal portfolio page
+# Website
 
-[Website](https://christophflick.de)
+This is the personal website of [me](https://github.com/ChFlick).
 
-I made this website in the first place to test out Gatsby and to play a little with web design.
+Based on the hugo [Kiera tempate](https://github.com/funkydan2/hugo-kiera/).
 
-## Used technologies
-
-- [Gatsby](https://www.gatsbyjs.org/)
-- [Gatsby Starter Portfolio Cara](https://github.com/LekoArts/gatsby-starter-portfolio-cara) 
-- [TailwindCSS](https://tailwindcss.com/) & [styled-components](https://www.styled-components.com/)
-- SEO
-  - Schema.org JSONLD
-  - OpenGraph Tags
-- [Typefaces](https://github.com/KyleAMathews/typefaces) for quicker font loading
-- Offline Support
-- WebApp Manifest Support
-- Responsive images
-  - The right image size for every screen size
-  - Traced SVG Loading (Lazy-Loading)
-  - WebP Support
+The webiste is online at https://christophflick.de/.
