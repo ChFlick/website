@@ -72,6 +72,11 @@ Wir, bzw. unser Hostinganbieter, erhebt auf Grundlage unserer berechtigten Inter
 
 Logfile-Informationen werden aus Sicherheitsgründen (z.B. zur Aufklärung von Missbrauchs- oder Betrugshandlungen) für die Dauer von maximal 7 Tagen gespeichert und danach gelöscht. Daten, deren weitere Aufbewahrung zu Beweiszwecken erforderlich ist, sind bis zur endgültigen Klärung des jeweiligen Vorfalls von der Löschung ausgenommen.
 
+## Verwendung von Clicky
+Diese Webseite benutzt den Webanalysedienst Clicky der Roxr Software, Ltd. („Roxr“), um statistische Daten über die Nutzung unseres Webangebotes zu erheben. Roxr verwendet Cookies. Die durch das Cookie erzeugten Informationen über Benutzung des Onlineangebotes durch die Nutzer werden in der Regel an einen Server von Roxr in den USA übertragen und dort gespeichert.
+Roxr wird diese Informationen in unserem Auftrag benutzen, um die Nutzung unseres Onlineangebotes durch die Nutzer auszuwerten, um Reports über die Aktivitäten innerhalb dieses Onlineangebotes zusammenzustellen und um weitere, mit der Nutzung dieses Onlineangebotes und der Internetnutzung verbundene Dienstleistungen, uns gegenüber zu erbringen. Dabei können aus den verarbeiteten Daten pseudonyme Nutzungsprofile der Nutzer erstellt werden. Wir setzen Clicky nur mit aktivierter IP-Anonymisierung ein. Das bedeutet, die IP-Adresse der Nutzer wird von Roxr innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum gekürzt.
+Zweck und Umfang der Datenerhebung und die weitere Verarbeitung und Nutzung der Daten durch Clicky können Sie den Roxr-Datenschutzhinweisen unter https://clicky.com/terms/privacy sowie dem Data Processing Agreement https://clicky.com/terms/dpa entnehmen.
+
 ## Netlify
 Wir verwenden die Dienste von Netlify Inc. (“Netlify”). Indem du uns personenbezogene Daten zur Verfügung stellst, erklärst du dich freiwillig mit der Erhebung, Verwendung und Offenlegung solcher personenbezogenen Daten an Netlify einverstanden. Netlify gibt deine persönlichen Daten nur an Dritte weiter, sofern dies für die Bereitstellung eines bestimmten Dienstes erforderlich und im Einklang mit unseren Datenschutzbestimmungen ist.
 
