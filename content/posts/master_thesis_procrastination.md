@@ -14,7 +14,7 @@ Well, basically I'm not currently writing it, but I'm in the process of writing 
 I started my thesis at the end of September 2020, though I haven't gotten too far yet.
 
 The topic of the thesis is "A domain-specific language for the derivation of traffic simulations - Enabling the virtual validation of connected vehicle use cases via formalized simulation scenario models".
-Sounds fancy and buzzwordy, like a 
+Sounds fancy and buzzwordy, like a good master thesis title should \*grin\*.
 In easy words: I'll create a domain-specific language to make it easier to generate scenarios for traffic simulators (like [Eclipse SUMO](http://sumo.dlr.de/)).
 
 In the beginning, I did the usual stuff: researching various aspects of the topic and familiarizing myself with it.
