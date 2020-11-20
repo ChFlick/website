@@ -46,9 +46,11 @@ I will see how this goes in the future.
 | Date       | Word Count |
 | ---------- | ---------- |
 | 2020-11-19 | 4628       |
+| 2020-11-20 | 4773       |
 
 ## Entries in the Bibliography
 
 | Date       | Entries in the Bibliography |
 | ---------- | --------------------------- |
 | 2020-11-19 | 34                          |
+| 2020-11-20 | 35                          |
