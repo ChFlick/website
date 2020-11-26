@@ -43,10 +43,11 @@ I will see how this goes in the future.
 
 ## Total Word Count
 
-| Date       | Word Count |
-| ---------- | ---------- |
-| 2020-11-19 | 4628       |
-| 2020-11-20 | 4773       |
+| Date       | Word Count | Comment |
+| ---------- | ---------- | ------- |
+| 2020-11-19 | 4628       |         |
+| 2020-11-20 | 4773       |         |
+| 2020-11-26 | 4777       | [^1]    |
 
 ## Entries in the Bibliography
 
@@ -54,3 +55,5 @@ I will see how this goes in the future.
 | ---------- | --------------------------- |
 | 2020-11-19 | 34                          |
 | 2020-11-20 | 35                          |
+
+[^1]: Even though I haven't written any more words, I continued working on the DSL itself
