@@ -2,16 +2,11 @@
     <footer>
         <h6>{{ .Site.Copyright | markdownify }} |
             {{ T "rendered" }} <a href="https://gohugo.io" title="Hugo">Hugo</a> |
-            <a href="{{.Site.BaseURL}}index.xml">{{ T "subscribe" }} </a> | 
-            <a href="#" onClick="klaro.show();return false;">Manage Cookies</a></h6>
+            <a href="{{.Site.BaseURL}}index.xml">{{ T "subscribe" }} </a>
     </footer>
 </div>
 <script src="{{ "js/scripts.js" | relURL }}"></script>
-<script defer type="application/javascript" src="{{.Site.BaseURL}}js/config.js"></script>
-<script defer type="application/javascript" src="{{.Site.BaseURL}}js/klaro-no-css.js"></script>
-
-<script type="text/plain" data-type="application/javascript" data-name="clicky">var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101266233);</script>
-<script type="text/plain" data-type="application/javascript" data-src="//static.getclicky.com/js" data-name="clicky"></script>
+<script async data-goatcounter="https://flick.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
 
 {{ if .Site.GoogleAnalytics }}
   {{ template "_internal/google_analytics_async.html" . }}
