@@ -49,6 +49,7 @@ I will see how this goes in the future.
 | 2020-11-20 | 4773       |         |
 | 2020-11-26 | 4777       | [^1]    |
 | 2020-12-03 | 5078       |         |
+| 2020-12-16 | 5326       |         |
 
 ## Entries in the Bibliography
 
