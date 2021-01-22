@@ -54,6 +54,7 @@ I will see how this goes in the future.
 | 2021-01-03 | 6062       |         |
 | 2021-01-08 | 6582       |         |
 | 2021-01-17 | 6859       |         |
+| 2021-01-22 | 7246       |         |
 
 ## Entries in the Bibliography
 
