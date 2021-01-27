@@ -55,6 +55,7 @@ I will see how this goes in the future.
 | 2021-01-08 | 6582       |         |
 | 2021-01-17 | 6859       |         |
 | 2021-01-22 | 7246       |         |
+| 2021-01-27 | 7566       |         |
 
 ## Entries in the Bibliography
 
@@ -64,6 +65,7 @@ I will see how this goes in the future.
 | 2020-11-20 | 35                          |
 | 2020-12-03 | 40                          |
 | 2021-01-03 | 42                          |
+| 2021-01-27 | 44                          |
 
 [^1]: Even though I haven't written any more words, I continued working on the DSL itself
 [^2]: Christmas time wasn't exactly working time
