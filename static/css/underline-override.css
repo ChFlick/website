@@ -1,0 +1,7 @@
+#container nav ul li a.active {
+    border-bottom: 0.2em solid #666666;
+}
+
+header h1 a {
+    text-decoration: none;
+}
