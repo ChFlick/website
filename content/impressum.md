@@ -1,6 +1,6 @@
 +++
 title = "Impressum & Datenschutz"
-date = "2020-01-25"
+date = "2021-08-25"
 weight = "20"
 meta = "false"
 +++
@@ -8,8 +8,8 @@ meta = "false"
 # Angaben gemäß § 5 TMG
 
 Christoph Flick  
-Neuheim 17  
-48155 Münster
+Berggate 5  
+44809 Bochum
 
 **Vertreten durch:**  
 Christoph Flick  
@@ -19,8 +19,8 @@ E-Mail: [hi (at) christophflick.de](mailto:hi(at)christophflick.de)
 
 **Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:**  
 Christoph Flick  
-Neuheim 17  
-48155 Münster  
+Berggate 5  
+44809 Bochum  
 
 # Haftungsausschluss:
 
