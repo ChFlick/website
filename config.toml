@@ -1,7 +1,7 @@
 baseurl = "https://www.christophflick.de/"
 title = "Christoph Flick"
 description = "This is the personal webspace of Christoph Flick, a german software engineer and current master's degree student of Digital Transformation."
-copyright = "Copyright &copy; 2020 - Christoph Flick | [Impressum & Datenschutz](/impressum)"
+copyright = "Copyright &copy; 2021 - Christoph Flick | [Impressum & Datenschutz](/impressum)"
 canonifyurls = true
 theme = "hugo-kiera"
 
@@ -27,7 +27,7 @@ pygmentsCodeFences = true
 
 [params]
     tagline = "A webspace with not yet known information"
-    description = "This is the personal webspace of Christoph Flick, a german software engineer and current master's degree student of Digital Transformation."
+    description = "This is the personal webspace of Christoph Flick, a german software engineer"
     #images = [""] #This is used for opengraph/twitter cards.
     customCSS = []  #Optional Customised CSS
     #favicon = ""
