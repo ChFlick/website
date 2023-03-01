@@ -1,6 +1,6 @@
 +++
 title = "Impressum & Datenschutz"
-date = "2021-08-25"
+date = "2023-03-01"
 weight = "20"
 meta = "false"
 +++
@@ -8,19 +8,23 @@ meta = "false"
 # Angaben gemäß § 5 TMG
 
 Christoph Flick  
-Berggate 5  
-44809 Bochum
+5 Merrion Woods
+Stillorgan Road
+Blackrock, Co. Dublin
+Ireland
 
 **Vertreten durch:**  
 Christoph Flick  
 
 **Kontakt:**  
-E-Mail: [hi (at) christophflick.de](mailto:hi(at)christophflick.de)
+E-Mail: [hi@christophflick.de](mailto:hi@christophflick.de)
 
 **Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:**  
 Christoph Flick  
-Berggate 5  
-44809 Bochum  
+5 Merrion Woods
+Stillorgan Road
+Blackrock, Co. Dublin
+Ireland 
 
 # Haftungsausschluss:
 
@@ -45,11 +49,12 @@ Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten d
 Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger in den Mitgliedstaaten der Europäischen Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist:
 
 Christoph Flick  
-Neuheim 17  
-48155 Münster  
-Deutschland
+5 Merrion Woods
+Stillorgan Road
+Blackrock, Co. Dublin
+Ireland
 
-E-Mail: [hi (at) christophflick.de](mailto:hi(at)christophflick.de)
+E-Mail: [hi@christophflick.de](mailto:hi@christophflick.de)
 Website: [christophflick.de](https://www.christophflick.de)
 
 ### Widerruf Ihrer Einwilligung zur Datenverarbeitung

@@ -1,7 +1,7 @@
 baseurl = "https://www.christophflick.de/"
 title = "Christoph Flick"
-description = "This is the personal webspace of Christoph Flick, a german software engineer and current master's degree student of Digital Transformation."
-copyright = "Copyright &copy; 2021 - Christoph Flick | [Impressum & Datenschutz](/impressum)"
+description = "Thoughts of Christoph."
+copyright = "Copyright &copy; 2023 - Christoph Flick | [Impressum & Datenschutz](/impressum)"
 canonifyurls = true
 theme = "hugo-kiera"
 
@@ -17,7 +17,7 @@ pygmentsCodeFences = true
     github = "ChFlick"
     gitlab = "ChFlick"
     linkedin = "christoph-flick"
-    email = "hi (at) christophflick.de"
+    email = "hi@christophflick.de"
     xing = "Christoph_Flick2"
     #facebook = "username"
     twitter = "flicksterino"

@@ -1,20 +1,18 @@
 +++
 title = "About"
-date = "2020-01-25"
+date = "2023-03-01"
 menu = "main"
 weight = "20"
 meta = "false"
 +++
 
-![That's me](/images/avatar.jpg#float-right)
+![That's me](/images/avatar.png#float-right)
 
-I am a Software Engineer, currently living in Münster, Germany. Software Engineering is my passion and I'm doing it for quite a few years now. I primarily work on web applications, but I may also dip my nose in desktop or embedded systems applications. I'm very passionate about clean coding practices and staying low on technical debt.
-
-When I'm not coding you can find me outside hiking, in my garden, or in the bouldering gym.
-
-## Selected (Public) Personal Projects
-
-### [firecode](https://github.com/ChFlick/firecode)
-A vscode extension for the firebase firestore, with syntax highlighting and autocompletion.
+Hi there!
+I'm a software engineer originally from Germany but currently living in Dublin
+I have a passion for software engineering and enjoy building side projects using various technologies.
+I also love participating in [Advent of Code challenges](https://adventofcode.com) when I find some time.
+ 
+When I'm not coding, you can find me bouldering, hiking, or baking delicious sourdough bread.
 
 #### [More on GitHub](https://github.com/ChFlick/)
