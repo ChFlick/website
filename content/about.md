@@ -9,7 +9,7 @@ meta = "false"
 ![That's me](/images/avatar.png#float-right)
 
 Hi there!
-I'm a software engineer originally from Germany but currently living in Dublin
+I'm a software engineer originally from Germany but currently living in Dublin.
 I have a passion for software engineering and enjoy building side projects using various technologies.
 I also love participating in [Advent of Code challenges](https://adventofcode.com) when I find some time.
  
